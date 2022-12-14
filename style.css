@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: auto;
+    font-family: 'Inter', sans-serif;
+}
+/*  generic styles  */
+body, form, .inputWrap, main, header{
+    display: flex;
+    flex-direction: column;
+}
+/*  generic styles  */
+
+body{
+    background-image: url("/assets/mainBG.jpg");
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+header{
+    height: 20vh;
+    justify-content: center;
+}
+header > h1{
+    color: rgb(36, 78, 36);
+    font-size: 3em;
+    opacity: .7;
+} 
+form{
+    border:2px solid #d9f2ff;
+    background-color: rgba(106, 90, 205, .2);
+    border-radius: 25px;
+    margin: 5vh;
+    padding: 7vh;
+}
+form > p{
+    margin-top: 2vh;
+    font-size: .75em;
+}
+.inputWrap{
+    margin: 1vh;
+    padding: 2vh;
+    line-height: 2em;
+}
+label{
+    margin: 0 7px;
+    color:#d9f2ff;
+}
+main{
+    height: 70vh;
+}
+input{
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 0 inset rgb(114, 106, 106);
+    padding-left: 10px;
+}
+button{
+    width: 7vw;
+    height: 3vh;
+    border: 1px solid #d9f2ff;
+    border-radius: 5px;
+    background-color: #a5bdfd;;
+    color: #35465c;
+    font-weight: 700;
+}
+
+
+
